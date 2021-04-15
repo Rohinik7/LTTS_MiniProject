@@ -1,3 +1,6 @@
-# Structure Diagrams
+# Structure Diagram
 
-## Add all the Structure Diagrams implemented
+The various structure diagrams implemented are :
+* Component Diagram
+* Deployment Diagram
+*
