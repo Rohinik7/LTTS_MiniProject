@@ -22,10 +22,10 @@ void test_bookmenu(void) {
   
 
 void test_deletebook(void) {
-  TEST_ASSERT_EQUAL(pass,deletebook(2passfail));
+  TEST_ASSERT_EQUAL(pass,deletebook(210));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(fail,deletebook(32fail));
+  TEST_ASSERT_EQUAL(fail,deletebook(211));
 }
 
 void test_usermenu(void) {
@@ -58,10 +58,10 @@ void test_deleteuser(void){
 }
 
 void test_validdatecheck(void){
-  TEST_ASSERT_EQUAL(pass,validdatecheck(23-02-2012));
+  TEST_ASSERT_EQUAL(pass,validdatecheck("23-02-2012"));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(fail,validdatecheck(39-13-2000));
+  TEST_ASSERT_EQUAL(fail,validdatecheck("39-13-2000"));
 
 }
 
