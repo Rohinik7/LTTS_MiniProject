@@ -10,4 +10,15 @@ The main objectives of this project is to :
 
 ### In order to access the admin, the password is set as "library".
 
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/gitinspector.yml/badge.svg)
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/unity.yml/badge.svg)
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/cpp-check.yml/badge.svg)
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/c-cpp.yml/badge.svg)
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/Dynamic.yml/badge.svg)
+![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/gcov.yml/badge.svg)
+
+
+
+
 ![alt text](https://github.com/Rohinik7/LTTS_MiniProject/blob/main/Library-Management-System.jpg?raw=true)
+
