@@ -1,5 +1,5 @@
 # Name of the project
-PROJECT_NAME = Library_Management
+PROJECT_NAME = Library
 
 # All source code files
 SRC = src/Library.c\
