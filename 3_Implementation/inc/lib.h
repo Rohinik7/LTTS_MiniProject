@@ -3,6 +3,7 @@
 * Library Management application with admin and user login
 *
 */
+
 #ifndef __LIB_H__
 #define __LIB_H__
 
@@ -10,82 +11,107 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 
+struct book
+{
+    int id;
+    char name[20];
+    char author[20];
+    int copies;
+    int copiesleft;
+}b,bc;
+struct date
+{
+    int dd,mm,yy;
+};
+struct user
+{
+    int id;
+    char name[20];
+    int bookid;
+    struct date issue;
+    struct date due;
+}u,uc;
+
+typedef enum test_values {
+    pass = 1,
+    fail = 0
+}test_values;
 /**
 *  Main menu 
 * @return options for the user
 */
-void main_menu(void);
+test_values main_menu(void);
 
 /**
  * Admin Menu
 * @return operations that can be performed by admin
 */
-void admin(void);
+test_values admin(void);
 
 /**
 *  Book menu
 * operation available in admin menu
 * @return list of operations in book menu
 */ 
-void bookmenu(void);
+test_values bookmenu(void);
 
 
 /**
 * add books to the list
 */
-void addbook(void);
+test_values addbook(void);
 /**
  * edit book
  */
- void editbook(void);
+ test_values editbook(void);
  /**
   * Delete the book based on input id
   */
- void deletebook(int id);
+ test_values deletebook(int id);
  /**
   * @return list of user menu
   */
- void usermenu(void);
+ test_values usermenu(void);
  /**
   * Add user to the list
   */
- void adduser(void);
+ test_values adduser(void);
  /**
   * checks if the user id is in the list
   * @returns 1 if true else 0
   */
- int uidcheck(int id);
+ test_values uidcheck(int id);
 /**
  * edit information of a user
  */
-void edituser(void);
+test_values edituser(void);
 /**
  * delete user from the list based on input id
  */
-void deleteuser(int id);
+test_values deleteuser(int id);
 /**
  * @returns list of books
  */
-void listbook(void);
+test_values listbook(void);
 /**
  * issue a new book
  */
-void issuebook(void);
+test_values issuebook(void);
 /**
  * check if date is valid
  * */
-int validdatecheck(struct date a);
+test_values validdatecheck(struct date a);
 /**
  * collect book that's been issued
  */
-void collectbook(void);
+test_values collectbook(void);
 /**
  * calculate the fine to be collected
  * @param date
  * @param id
  * @return fine_amount
  */
-int fine(struct date r,int i);
+test_values fine(struct date r,int i);
 
 
 #endif  /* #define __LIB_H__ */
