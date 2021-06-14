@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <string.h>
 
-char password[8]="library";
+char password[8]="LTTSlibs";
 struct book
 {
     int id;
