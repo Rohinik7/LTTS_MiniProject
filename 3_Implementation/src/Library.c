@@ -54,7 +54,7 @@ int fine(struct date,int);
 int main(void)
 {
     system("cls");
-    printf("\n\n\n\t\t\t Library Management Software \n\n\n\n\n\t\t\t\t\t\t\t\t By \n\t\t\t\t\t\t\t\t Rohini Nair \n\t\t\t\t\t\t\t\t 263994");
+    printf("\n\n\n\t\t\t Library Management Software \n\n\n\n\t\t\t\t\t\t\t\t By \n\t\t\t\t\t\t\t Rohini Nair \n\t\t\t\t\t\t\t 263994");
     printf("\n Press any key to continue");
     getch();
     main_menu();
