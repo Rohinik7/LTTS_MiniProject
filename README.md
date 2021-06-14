@@ -8,7 +8,7 @@ The main objectives of this project is to :
 * Issue and Return a book
 * Add new books
 
-### In order to access the admin, the password is set as "library".
+### In order to access the admin, the password is set as "lttslib".
 
 ![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/gitinspector.yml/badge.svg)
 ![example workflow](https://github.com/Rohinik7/LTTS_MiniProject/actions/workflows/unity.yml/badge.svg)
